@@ -9,7 +9,21 @@
   box-sizing: border-box;
   max-width: 100vw;
 }
+/* 
+container
+nav
+logo
 
+content
+inside-content
+scarecrow
+title
+bodytext
+btn
+
+footer
+ft-text
+*/
 .container {
   width: 100vw;
   height: 100vh;
@@ -17,6 +31,16 @@
 
 .nav {
   padding: 1.5rem 2rem;
+}
+
+.logo {
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25.18px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
 }
 
 .content {
@@ -39,24 +63,8 @@
   width: 50%;
 }
 
-a {
-  text-decoration: none;
-}
-
-.footer {
-  text-align: center;
-  margin: auto;
-  padding-top: 6rem;
-}
-
-.logo {
-  font-family: "Inconsolata", monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 25.18px;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
+.scarecrow-img {
+  width: 70%;
 }
 
 .title {
@@ -84,30 +92,6 @@ a {
   letter-spacing: -0.035em;
 }
 
-.footer-text {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #bdbdbd;
-}
-
-.footer-text a {
-  text-decoration: none;
-  color: #bdbdbd;
-}
-
-.footer-text a:hover {
-  color: #f7542e;
-  font-weight: bold;
-}
-
-.scarecrow-img {
-  width: 70%;
-}
-
 .btn {
   color: #fff;
   background: #333;
@@ -126,9 +110,35 @@ a {
 }
 
 .btn:hover {
-  background: #999;
-  color: #000;
+  background: #555;
+  color: #fff;
   cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin: auto;
+  padding-top: 6rem;
+}
+
+.footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+.footer-text a:hover {
+  color: #f7542e;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
