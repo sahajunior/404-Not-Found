@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  padding: 1.5rem 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 80%;
+}
+
+.inside-content {
+  display: inline-block;
+  width: 50%;
+  padding: 2rem;
+}
+
+.inside-content:first-of-type {
+  text-align: center;
+}
+
+.inside-content:last-of-type {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  margin: auto;
+  padding-top: 6rem;
+}
+
+.logo {
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25.18px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  display: block;
+  width: 70%;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 94.78px;
+  letter-spacing: -0.035em;
+}
+
+.body-text {
+  display: block;
+  width: 75%;
+  margin: 4rem 0;
+  width: 381px;
+
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+
+.footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+.footer-text a:hover {
+  color: #f7542e;
+  font-weight: bold;
+}
+
+.scarecrow-img {
+  width: 70%;
+}
+
+.btn {
+  color: #fff;
+  background: #333;
+
+  width: 216px;
+  height: 68px;
+
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #999;
+  color: #000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    height: auto;
+  }
+
+  .content {
+    display: inline-block;
+  }
+
+  .inside-content {
+    width: 100%;
+  }
+
+  .inside-content:last-of-type {
+    width: 100%;
+  }
+
+  .title {
+    width: 90%;
+    font-size: 42px;
+  }
+
+  .body-text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 2.5rem auto;
+    margin: auto;
+  }
+
+  .scarecrow-img {
+    width: 90%;
+  }
+
+  .footer {
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+}
