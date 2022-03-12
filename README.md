@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://nifty-colden-90cfe2.netlify.app/">
+    <a href="https://nifty-colden-90cfe2.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/YXUjoHdw44tm9ZO9yyyX">
+    <a href="https://devchallenges.io/solutions/YXUjoHdw44tm9ZO9yyyX" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
