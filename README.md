@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://error-404-sahajunior.netlify.app/" target="_blank">
+    <a href="https://404-not-found-sahajunior.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
